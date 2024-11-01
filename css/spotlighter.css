@@ -1,0 +1,43 @@
+/* CSS for Spotligher Plugin
+ * Written by Nimrod Tsabari
+ * Since Version 0.1b
+ * Release Version 0.5
+ */
+
+div.spotlighter-box {
+	display: none;
+	position: absolute;
+	background: white;
+	z-index: 99998;
+}
+.spotlighter-content-container {
+	display: inline-block;
+}
+.spotlighter-inline {
+	display: inline;
+}
+.spotlighter-block {
+	display: inline-block;
+}
+.spotlighter-switch {
+	cursor: pointer;
+}
+.spotlighter-styles {
+	display: none;
+}
+.spotlighter-flatten {
+	z-index: inherit !important;
+}
+.spotlighter-carpet {
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: 99997;
+	display: none;
+}
+.mcc-activated {
+	z-index: 99999;	
+	position: relative;
+}
